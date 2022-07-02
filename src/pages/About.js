@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import "./About.css";
-import profile_pic from "../assets/profile_pic.jpg";
+import thumbNail from "../assets/thumbNail.jpg";
 
 export default class About extends Component {
   render() {
@@ -11,7 +11,7 @@ export default class About extends Component {
           <div className="centered">
             <img
               className="profile_image"
-              src={profile_pic}
+              src={thumbNail}
               alt="Profile Pic"
             ></img>
           </div>
@@ -20,8 +20,9 @@ export default class About extends Component {
           <div className="centered">
             <div className="name_title">Your Name</div>
             <div className="brief_description">
-              Tell us about yourself in a few sentences. Tell us your interests
-              and say a fun fact about yourself.
+              Hi, I'm Torrin Curry, a Computer Science Major at UGA. 
+              I'm originally from the great city of Stone Mountain, GA
+              In my free time, I like to play basketball with friends, and I really enjoy cars.
             </div>
           </div>
         </div>
