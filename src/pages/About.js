@@ -18,7 +18,7 @@ export default class About extends Component {
         </div>
         <div className="split right">
           <div className="centered">
-            <div className="name_title">Your Name</div>
+            <div className="name_title">Torrin Curry</div>
             <div className="brief_description">
               Hi, I'm Torrin Curry, a Computer Science Major at UGA. 
               I'm originally from the great city of Stone Mountain, GA
